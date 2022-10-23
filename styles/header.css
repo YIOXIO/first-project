@@ -1,0 +1,55 @@
+.header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+    min-height: 600px;
+    max-height: 756px;
+    background-color: #f2f2f2;
+}
+
+.logo_place_header {
+    margin: 30px 64px;
+    width: 228px;
+    height: 32px;
+    position: absolute;
+    top: 0;
+
+}
+
+.header__title {
+    width: 730px;
+    margin: 0px 64px;
+    font-weight: 600;
+    font-size: 102px;
+    line-height: 96px;
+    z-index: 1;
+}
+
+.header__subtitle {
+    position: absolute;
+    bottom: 0;
+    width: 368px;
+    margin: 30px 64px;
+    font-size: 18px;
+    line-height: 25px;
+    z-index: 1;
+}
+
+.header__square-pic {
+    position: absolute;
+    height: 568px;
+    width: 568px;
+    right: 0;
+    bottom: 0;
+    background-color: #2f80ed;
+}
+
+.header__main-illustration {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 768px;
+    height: 608px;
+}
