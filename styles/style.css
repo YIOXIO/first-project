@@ -1,11 +1,14 @@
 @import 'fonts.css';
-@import 'header.css';
-@import 'description.css';
-@import 'techniques.css';
-@import 'digits.css';
-@import 'kaufman.css';
-@import 'footer.css';
-@import 'resources.css';
+@import '../blocks/header/header.css';
+@import '../blocks/description/description.css';
+@import '../blocks/techniques/techniques.css';
+@import '../blocks/digits/digits.css';
+@import '../blocks/kaufman/kaufman.css';
+@import '../blocks/footer/footer.css';
+@import '../blocks/resours/resources.css';
+@import '../blocks/animation/animation.css';
+@import '../blocks/block_video/video.css';
+@import '../blocks/oakley/oakley.css';
 
 
 section {
@@ -35,5 +38,6 @@ li {
   margin: 0 auto;
   font-family: 'Inter', 'Arial', sans-serif;
   font-weight: normal;
+
 
 }

@@ -54,7 +54,7 @@
     gap: 10px;
 }
 
-.footer__column_link a {
+.footer__column_link>a {
     text-decoration: none;
     text-transform: none;
     list-style: none;
