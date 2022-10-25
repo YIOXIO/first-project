@@ -30,6 +30,7 @@ li {
   text-decoration: none;
   text-transform: none;
   padding: 0;
+  list-style: none;
 }
 
 .page {
