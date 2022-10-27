@@ -1,4 +1,4 @@
-@import 'fonts.css';
+@import '/vendor/fonts.css';
 @import '../blocks/header/header.css';
 @import '../blocks/description/description.css';
 @import '../blocks/techniques/techniques.css';
@@ -10,14 +10,26 @@
 @import '../blocks/block_video/video.css';
 @import '../blocks/oakley/oakley.css';
 @import '../blocks/feynman/feynman.css';
+@import '../blocks/khan/khan.css';
 
+
+.root,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
 
 section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 100px 0;
+    margin: 0 auto;
 }
 
 span {

@@ -1,5 +1,8 @@
 .feynman {
     display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
     position: relative;
     height: 890px;
     background-color: #f2f2f2;
@@ -8,6 +11,7 @@
 .feynman__background {
     position: absolute;
     left: 0;
+    bottom: 0;
 }
 
 .feynman__title {
@@ -17,8 +21,20 @@
     width: 648px;
     text-align: center;
     z-index: 1;
+    padding-top: 180px;
+    margin: 0 0 70px 0;
 }
 
 .feynman__subtitle {
+    position: relative;
+    line-height: 51px;
+    font-size: 36px;
+    font-weight: 400;
     z-index: 1;
+}
+
+.feynman__link {
+    position: absolute;
+    right: -550px;
+
 }

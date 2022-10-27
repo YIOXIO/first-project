@@ -1,6 +1,17 @@
+.video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    min-height: 890px;
+}
+
 .video__iframes {
     display: flex;
     gap: 20px;
+    position: absolute;
+    bottom: -20px;
 }
 
 .video__iframe {

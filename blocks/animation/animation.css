@@ -3,10 +3,10 @@
     -moz-animation: spin 20s linear infinite;
     animation: spin 20s linear infinite;
     position: absolute;
-    right: 0;
+    /* right: 0;
     bottom: 0;
     height: 568px;
-    width: 568px;
+    width: 568px; */
 
 
 }

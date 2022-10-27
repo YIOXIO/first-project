@@ -38,13 +38,11 @@
 
 
 .footer__column-heading {
-    color: white
+    color: white;
+    margin-bottom: 10px;
 }
 
 .footer__column_content_info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     width: 150px;
 }
 
