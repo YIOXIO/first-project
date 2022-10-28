@@ -1,6 +1,18 @@
+.resources {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .resources__logo-zone {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     width: 1100px;
     margin: 80px 0 273px;
 }
+
+/* .section__subtite {
+    max-resolution: ;
+} */

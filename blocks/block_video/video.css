@@ -3,15 +3,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: relative;
-    min-height: 890px;
+    padding-top: 100px;
+
 }
 
 .video__iframes {
     display: flex;
     gap: 20px;
-    position: absolute;
-    bottom: -20px;
+    margin: 50px 0 -50px;
+
 }
 
 .video__iframe {

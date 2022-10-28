@@ -1,4 +1,6 @@
 .khan {
+    display: flex;
+    justify-content: center;
     background-color: #f2f2f2;
 }
 
@@ -62,4 +64,9 @@
     font-size: 30px;
     font-weight: 400;
 
+}
+
+.khan__buy-link:hover {
+    color: green;
+    transition: 1s;
 }
